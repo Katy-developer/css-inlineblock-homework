@@ -1,0 +1,80 @@
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+/*navbar*/
+/*normalization reset*/
+
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ /*styling*/
+
+body{
+    background: rgb(167, 167, 167);
+}
+
+#navbar {
+    background: rgb(218, 218, 218);
+    /*height: 100px */
+    text-align: center;
+    padding: 0 50px;
+
+}
+
+#navbar ul {
+    display: inline-block;
+    border:  1px solid #999;*/
+    vertical-align: middle;
+}
+
+
+#navbar li {
+    display: inline-block;
+    vertical-align: middle;
+    /*border:  1px solid #666;*/
+  
+}
+
+
+#navbar li a {
+    color: rgb(70, 70, 70);
+    padding: 37px 18px;
+    display: block;
+
+}
+
+#navbar .nav-brand {
+    
+}
+
+#navbar .nav-brand .image {
+    padding: 0px;
+}
+
+#navbar .nav-main .phone {
+    font-weight: bold;
+    padding: 37px 30px;
+}
+
+#navbar .nav-main {
+    margin: 0 16% ;
+}
+
+#navbar .nav-user {
+    
+}
+
+
+
